@@ -1,0 +1,106 @@
+
+[Generated SQL]: Sure! Here is the SQL query to retrieve patients who are 50 years old or older:
+
+```sql
+SELECT *
+FROM patients
+WHERE age >= 50;
+```
+
+[Sanitized SQL]: SELECT *
+
+[Generated SQL]: Sure! Here is the SQL query to retrieve patients who are 50 years old or older:
+
+```sql
+SELECT *
+FROM patients
+WHERE age >= 50;
+```
+
+[Sanitized SQL]: SELECT *
+
+[Sanitize Error]: Missing FROM clause in SQL
+
+[Generated SQL]: Sure! Here is the SQL query to retrieve patients:
+
+```sql
+SELECT *
+FROM Patients;
+``` 
+
+This query will select all columns from the Patients table.
+
+[Sanitized SQL]: SELECT *
+
+[Generated SQL]: Sure! Here is the SQL query to retrieve patients:
+
+```sql
+SELECT *
+FROM Patients;
+``` 
+
+This query will select all columns from the Patients table.
+
+[Sanitized SQL]: SELECT *
+
+[Sanitize Error]: Missing FROM clause in SQL
+
+[Generated SQL]: Sure! Here is the SQL query to retrieve patients who are 50 years old or older:
+
+```sql
+SELECT *
+FROM patients
+WHERE age >= 50;
+```
+
+[Sanitized SQL]: SELECT *
+FROM patients
+WHERE age >= 50;
+
+
+[Generated SQL]: Sure! Here is the SQL query to retrieve patients who are 50 years old or older:
+
+```sql
+SELECT *
+FROM patients
+WHERE age >= 50;
+```
+
+[Sanitized SQL]: SELECT *
+FROM patients
+WHERE age >= 50;
+
+
+[Sanitized SQL]: SELECT *
+FROM patients
+WHERE age >= 50
+
+[Generated SQL]: Sure! Here is the SQL query to retrieve patients who are 10 years old or older:
+
+```sql
+SELECT *
+FROM patients
+WHERE age >= 10;
+```
+
+[Sanitized SQL]: SELECT *
+FROM patients
+WHERE age >= 10;
+
+
+[Generated SQL]: Sure! Here is the SQL query to retrieve patients who are 10 years old or older:
+
+```sql
+SELECT *
+FROM patients
+WHERE age >= 10;
+```
+
+[Sanitized SQL]: SELECT *
+FROM patients
+WHERE age >= 10;
+
+
+[Sanitized SQL]: SELECT *
+FROM patients
+WHERE age >= 10

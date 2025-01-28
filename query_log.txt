@@ -1,0 +1,22 @@
+Executing SQL: sql
+SELECT * 
+FROM patients
+WHERE age >= 50;
+Executing SQL: sql
+SELECT * 
+FROM patients
+WHERE age >= 50;
+Executing sanitized SQL: sql
+SELECT * 
+FROM patients
+WHERE age >= 50
+Executing sanitized SQL: sql
+SELECT * 
+FROM patients
+WHERE age >= 50
+Executing sanitized SQL: 以下のSQLクエリを使用して、50歳以上の患者を取得できます。
+
+sql
+SELECT *
+FROM patients
+WHERE age >= 50
