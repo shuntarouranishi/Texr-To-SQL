@@ -104,3 +104,67 @@ WHERE age >= 10;
 [Sanitized SQL]: SELECT *
 FROM patients
 WHERE age >= 10
+
+[Generated SQL]: Sure! Here is the SQL query to retrieve patients who are 50 years old or older:
+
+```sql
+SELECT *
+FROM patients
+WHERE age >= 50;
+``` 
+
+In this query, `patients` is the table containing patient information, and `age` is the column representing the age of the patients.
+
+[Sanitized SQL]: SELECT *
+FROM patients
+WHERE age >= 50;
+ 
+
+In this query, patients is the table containing patient information, and age is the column representing the age of the patients.
+
+[Generated SQL]: Sure! Here is the SQL query to retrieve patients who are 50 years old or older:
+
+```sql
+SELECT *
+FROM patients
+WHERE age >= 50;
+```
+
+[Sanitized SQL]: SELECT *
+FROM patients
+WHERE age >= 50;
+
+
+[Sanitized SQL]: SELECT *
+FROM patients
+WHERE age >= 50
+
+[Generated SQL]: Sure! Here is the SQL query to retrieve patients who are 10 years old or older:
+
+```sql
+SELECT *
+FROM patients
+WHERE age >= 10;
+```
+
+[Sanitized SQL]: SELECT *
+FROM patients
+WHERE age >= 10;
+
+
+[Generated SQL]: Sure! Here is the SQL query to retrieve patients who are 10 years old or older:
+
+```sql
+SELECT *
+FROM patients
+WHERE age >= 10;
+```
+
+[Sanitized SQL]: SELECT *
+FROM patients
+WHERE age >= 10;
+
+
+[Sanitized SQL]: SELECT *
+FROM patients
+WHERE age >= 10

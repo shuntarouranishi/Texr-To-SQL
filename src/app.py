@@ -1,3 +1,9 @@
+import sys
+
+# プロジェクトのルートディレクトリをモジュール検索パスに追加
+current_dir = os.path.dirname(os.path.abspath(__file__))
+root_dir = os.path.abspath(os.path.join(current_dir, ".."))
+sys.path.append(root_dir)
 import openai
 import streamlit as st
 from src.db_connect import execute_sql

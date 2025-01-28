@@ -1,4 +1,4 @@
-psycopg2-binary
-openai
 streamlit
+openai
 python-dotenv
+pyodbc
